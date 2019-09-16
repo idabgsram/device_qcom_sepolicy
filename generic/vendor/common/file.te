@@ -101,7 +101,7 @@ type pps_socket, file_type;
 # imshelper_app file types
 type imshelper_app_data_file, file_type, data_file_type;
 
-type firmware_file, file_type, contextmount_type, vendor_file_type;
+#type firmware_file, file_type, contextmount_type, vendor_file_type;
 
 type cnd_data_file, file_type, data_file_type;
 type location_data_file, file_type, data_file_type;
@@ -138,7 +138,7 @@ type modem_dump_file, file_type, data_file_type;
 type sensors_vendor_data_file, file_type, data_file_type;
 type port_bridge_data_file, file_type, data_file_type;
 type vendor_firmware_file, vendor_file_type, file_type;
-type bt_firmware_file, file_type, contextmount_type, vendor_file_type;
+#type bt_firmware_file, file_type, contextmount_type, vendor_file_type;
 type vendor_mdmhelperdata_data_file, file_type, data_file_type;
 type vendor_mbn_data_file, file_type, data_file_type;
 
